@@ -11,7 +11,7 @@
     "test": "ng test"
   },
   "engines": {
-    "node": "28.16.0",
+    "node": "18.16.0",
     "npm":"9.5.1"
   },
   "private": true,
