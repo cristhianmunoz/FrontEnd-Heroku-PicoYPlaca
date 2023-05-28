@@ -2,14 +2,25 @@
   "name": "front-end-picoy-placa",
   "version": "0.0.0",
   "scripts": {
+    "heroku-postbuild": "ng build --prod",
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
+
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "engines": {
+    "node": "28.16.0",
+    "npm":"9.5.1"
+  },
   "private": true,
   "dependencies": {
+
+    "@angular/cli": "^16.0.3",
+    "@angular/compiler-cli": "^16.0.3",
+    "typescript": "~5.0.2",
+
     "@angular/animations": "^16.0.0",
     "@angular/common": "^16.0.0",
     "@angular/compiler": "^16.0.0",
@@ -29,8 +40,8 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.0.3",
-    "@angular/cli": "~16.0.3",
-    "@angular/compiler-cli": "^16.0.0",
+    "@angular/cli": "^16.0.3",
+    "@angular/compiler-cli": "^16.0.3",
     "@angular/localize": "^16.0.0",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.6.0",
