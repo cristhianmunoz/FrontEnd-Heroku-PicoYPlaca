@@ -2,7 +2,7 @@
   "name": "front-end-picoy-placa",
   "version": "0.0.0",
   "scripts": {
-    "heroku-postbuild": "ng build --prod",
+    "heroku-postbuild": "ng build --configuration production --aot",
     "ng": "ng",
     "start": "node server.js",
 
