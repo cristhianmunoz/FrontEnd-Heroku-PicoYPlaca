@@ -2,26 +2,25 @@
   "name": "front-end-picoy-placa",
   "version": "0.0.0",
   "scripts": {
-    "heroku-postbuild": "ng build --configuration production --aot",
     "ng": "ng",
+    "heroku-postbuild": "ng build --configuration production --aot",
     "start": "node server.js",
-
+    "start2": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
   "engines": {
     "node": "18.16.0",
-    "npm":"9.5.1"
+    "npm": "9.5.1"
   },
   "private": true,
   "dependencies": {
-    "@angular/cli": "^16.0.3",
-    "@angular/compiler-cli": "^16.0.3",
-    "typescript": "~5.0.2",
     "@angular/animations": "^16.0.0",
+    "@angular/cli": "^16.0.3",
     "@angular/common": "^16.0.0",
     "@angular/compiler": "^16.0.0",
+    "@angular/compiler-cli": "^16.0.3",
     "@angular/core": "^16.0.0",
     "@angular/forms": "^16.0.3",
     "@angular/platform-browser": "^16.0.0",
@@ -31,9 +30,12 @@
     "@popperjs/core": "^2.11.8",
     "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
     "jquery": "^3.7.0",
+    "path": "^0.12.7",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "typescript": "~5.0.2",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
