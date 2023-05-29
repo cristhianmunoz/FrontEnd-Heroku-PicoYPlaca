@@ -16,11 +16,9 @@
   },
   "private": true,
   "dependencies": {
-
     "@angular/cli": "^16.0.3",
     "@angular/compiler-cli": "^16.0.3",
     "typescript": "~5.0.2",
-
     "@angular/animations": "^16.0.0",
     "@angular/common": "^16.0.0",
     "@angular/compiler": "^16.0.0",
